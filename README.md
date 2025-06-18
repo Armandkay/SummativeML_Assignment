@@ -3,6 +3,7 @@
 **Author:** Armand Kayiranga  
 **Affiliation:** African Leadership University  
 **Course:** Introduction to Machine Learning - Final Summative
+Link to Video Presentation : https://www.loom.com/share/b6865215a0a5492ab42d484b0a300453?t=80&sid=15628145-157c-4146-9340-7a544b4bdab3
 
 ## Problem Statement
 
