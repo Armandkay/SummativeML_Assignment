@@ -1,0 +1,6 @@
+Training Instance,Optimizer,Regularizer,Epochs,Early Stopping,Number of Layers,Learning Rate,Dropout Rate,Accuracy,Loss,F1-score,Precision,Recall
+Instance 1 (Default),adam,None,50,No,3,0.001,0.0,0.8167,0.1351,0.8070,0.7931,0.8214
+Instance 2 (Adam + L2 + Early Stopping),adam,<keras.src.regularizers.regularizers.L2 object at 0x0000016CCDBB96D0>,98,Yes,4,0.001,0.3,0.8167,0.3410,0.8000,0.8148,0.7857
+Instance 3 (RMSprop + L1 + Dropout),rmsprop,<keras.src.regularizers.regularizers.L1 object at 0x0000016CCDBBBB50>,36,Yes,3,0.01,0.5,0.8500,0.6800,0.8302,0.8800,0.7857
+Instance 4 (SGD + L1L2 + High LR),sgd,<keras.src.regularizers.regularizers.L1L2 object at 0x0000016CC2F54050>,91,Yes,5,0.1,0.2,0.8333,0.6063,0.8148,0.8462,0.7857
+Instance 5 (Adam + L2 + Low LR),adam,<keras.src.regularizers.regularizers.L2 object at 0x0000016CCDD58E50>,200,Yes,4,0.0001,0.4,0.8667,0.5155,0.8400,0.9545,0.7500
